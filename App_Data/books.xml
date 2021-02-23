@@ -48,9 +48,9 @@
   <book>
     <id>0006</id>
     <title>Sad</title>
-    <author>
-      <middlename>John</middlename>
+    <author>  
       <firstname>Ron</firstname>
+	  <middlename>John</middlename>
       <lastname>Weasley</lastname>
     </author>
   </book>
@@ -58,19 +58,19 @@
     <id>0007</id>
     <title>Hello</title>
     <author>
-      <middlename>Doe</middlename>
       <firstname>Jane</firstname>
+	  <middlename>Doe</middlename>
       <lastname>Smith</lastname>
     </author>
   </book>
   <book>
     <id>0008</id>
     <title>Hello World</title>
-    <author>
-      <middlename>Jones</middlename>
-      <firstname>Sam</firstname>
-      <lastname>Smith</lastname>
-    </author>
+	  <author>
+		<firstname>Sam</firstname>
+		<middlename>Jones</middlename>
+		<lastname>Smith</lastname>
+	  </author>
   </book>
   <book>
     <id>0009</id>
@@ -78,6 +78,15 @@
     <author>
       <firstname>William</firstname>
       <lastname>Shakespeare</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0010</id>
+    <title>Learn HTML</title>
+    <author>
+      <firstname>Jim</firstname>
+      <middlename>Jones</middlename>
+      <lastname>Smith</lastname>
     </author>
   </book>
 </books>

@@ -72,7 +72,7 @@ namespace Lab5_SashaSrinivas.Controllers
 
             XmlNode first = doc.CreateElement("firstname");
             first.InnerText = newBook.FirstName;
-
+            author.AppendChild(first);
 
             // if(!String.IsNullOrEmpty(newBook.MiddleName))
             if (newBook.MiddleName != null && newBook.MiddleName != "")
@@ -85,7 +85,7 @@ namespace Lab5_SashaSrinivas.Controllers
             XmlNode last = doc.CreateElement("lastname");
             last.InnerText = newBook.LastName;
 
-            author.AppendChild(first);
+           
             author.AppendChild(last);
 
             book.AppendChild(author);
