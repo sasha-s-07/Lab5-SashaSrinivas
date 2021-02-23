@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book>
+    <id>0001</id>
+    <title>A Study in Scarlet</title>
+    <author title="Sir">
+      <firstname>Arthur</firstname>
+      <middlename>Conan</middlename>
+      <lastname>Doyle</lastname>
+    </author>
+    <editor>
+      <firstname>John</firstname>
+      <lastname>Smith</lastname>
+    </editor>
+  </book>
+  <book>
+    <id>0002</id>
+    <title>Don Juan</title>
+    <author title="Lord">
+      <lastname>Byron</lastname>
+      <firstname>George</firstname>
+    </author>
+  </book>
+  <book>
+    <id>0003</id>
+    <title>My Life</title>
+    <author>
+      <firstname>Sasha</firstname>
+      <lastname>Srinivas</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0004</id>
+    <title>My Life</title>
+    <author>
+      <firstname>Sasha</firstname>
+      <lastname>Srinivas</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0005</id>
+    <title>Happy</title>
+    <author>
+      <firstname>Harry </firstname>
+      <lastname>Potter</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0006</id>
+    <title>Sad</title>
+    <author>
+      <middlename>John</middlename>
+      <firstname>Ron</firstname>
+      <lastname>Weasley</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0007</id>
+    <title>Hello</title>
+    <author>
+      <middlename>Doe</middlename>
+      <firstname>Jane</firstname>
+      <lastname>Smith</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0008</id>
+    <title>Hello World</title>
+    <author>
+      <middlename>Jones</middlename>
+      <firstname>Sam</firstname>
+      <lastname>Smith</lastname>
+    </author>
+  </book>
+  <book>
+    <id>0009</id>
+    <title>Romeo and Juliet</title>
+    <author>
+      <firstname>William</firstname>
+      <lastname>Shakespeare</lastname>
+    </author>
+  </book>
+</books>
